@@ -10,4 +10,4 @@ if [ ! -f ${SETTING_FILE} ]; then
 	echo 'DIFF_OPT='          >> ${SETTING_FILE}
 fi
 
-open -a ${CODA} ${SETTING_FILE}
+open -a "${CODA}" ${SETTING_FILE}
